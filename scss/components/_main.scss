@@ -13,6 +13,10 @@ body{
     background-color: rgb( 17, 17, 17);
 }
 
+span{
+    color: $color-rositabg;
+}
+
 .face{
     img{
         width: 350px;
@@ -63,7 +67,8 @@ body{
     }
     .back{
         transform: perspective(600px) rotateY(180deg);
-        background: $color-rositabg;
+        // background: $color-rositabg;
+        background-image: url(../img/pattern.jpg);
         padding: 15px;
         color: #f3f3f3;
         display: flex;
@@ -72,9 +77,9 @@ body{
         text-align: center;
         box-shadow: 0 5px 10px #000;
         h3{
-            color: #000; 
+            color: $color-rositabg; 
             font-size: 2em;
-            border-bottom: 2px solid black;
+            border-bottom: 2px solid rgb(17, 17, 17);
         }
         div{
             height: 70%;

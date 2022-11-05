@@ -11,6 +11,9 @@ body {
   min-height: 100vh;
   background-color: #111111; }
 
+span {
+  color: #f74d9c; }
+
 .face img {
   width: 350px;
   height: auto; }
@@ -50,7 +53,7 @@ body {
       text-align: center; }
   .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: #f74d9c;
+    background-image: url(../img/pattern.jpg);
     padding: 15px;
     color: #f3f3f3;
     display: flex;
@@ -59,9 +62,9 @@ body {
     text-align: center;
     box-shadow: 0 5px 10px #000; }
     .card .back h3 {
-      color: #000;
+      color: #f74d9c;
       font-size: 2em;
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid #111111; }
     .card .back div {
       height: 70%;
       display: flex;
