@@ -41,7 +41,7 @@ body{
         overflow: hidden;
     }
     .front{
-        transform: perspective(600px) rotateY(180deg);
+        transform: perspective(600px) rotateY(0deg);
         box-shadow: 0 5px 10px;
         img{
             position: absolute;
@@ -61,7 +61,7 @@ body{
         }
     }
     .back{
-        transform: perspective(600px) rotateY(0deg);
+        transform: perspective(600px) rotateY(180deg);
         background: $color-rositabg;
         padding: 15px;
         color: #f3f3f3;
@@ -70,7 +70,20 @@ body{
         justify-content: space-between;
         text-align: center;
         box-shadow: 0 5px 10px #000;
-        p{
+        h3{
+            color: #000; 
+            font-size: 2em;
+            border-bottom: 2px solid black;
+        }
+        div{
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            p{
+                color: rgb(240, 240, 240);
+                font-size: 1.2em;
+            }
         }
     }
 }
