@@ -39,6 +39,7 @@ body{
         backface-visibility: hidden;
         border-radius: 10px;
         overflow: hidden;
+        transition: 0.5s;
     }
     .front{
         transform: perspective(600px) rotateY(0deg);
